@@ -1,0 +1,12 @@
+create lambda role --> lambda assumes lambda full_access role
+paste this role in samTemplate.yaml
+
+cloudformation assumes role --> first create with AWSLambdaExecute then attach with inline policy (cft-role.json)
+
+source code --> select git hub 2 version
+
+code build
+create project --> creates a role for itself automatically --> for that role add s3_access to it as inline policy
+--> BuildArtifact --> outputSamTemplate.yaml
+
+codedeploy --> attach cloudformation role (cft-role.json)
