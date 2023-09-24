@@ -10,3 +10,5 @@ create project --> creates a role for itself automatically --> for that role add
 --> BuildArtifact --> outputSamTemplate.yaml
 
 codedeploy --> attach cloudformation role (cft-role.json)
+
+sample 24-9-2023
